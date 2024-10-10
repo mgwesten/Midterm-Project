@@ -1,0 +1,221 @@
+body{
+    background-color: rgb(68, 63, 63);
+    /* this is used to make the background of all of the website gray */
+}
+
+nav{
+    color: white;
+    padding: 15px;
+/* this is used to make the text color for all of the nav elements white */
+}
+.navbar-right{
+    float: right;
+    padding: 15px;
+    display: block;
+    /* this is used to make the links for the other pages go to the right of the page, and the block is so they are all displayed together */
+}
+.navbar-left{
+    padding: 15px;
+    float:left;
+    display: block;
+    padding-left: 50px;
+     /* this is used to make the links for the other pages go to the left of the page, and the block is so they are all displayed together */
+}
+.name-img {
+    width: 18px;
+    height: 12px;
+    /* this is used to control the size of the image */
+}
+#home{
+    color:white;
+    padding:10px;
+    text-decoration: none;
+}
+#works{
+    color:white;
+    padding:10px;
+    text-decoration: none;
+}
+#about{
+    color:white;
+    padding:10px;
+    text-decoration: none;
+}
+#contacts{
+    color:white;
+    padding:10px;
+    text-decoration: none;
+    
+}
+/* the above ids are used for each of the nav-bar items to make them white and to take away the link line */
+header h1{
+    padding-top: 20px;
+    /* this is used to give the headers some space around it */
+}
+header{
+    display: block; 
+    color: white;
+    padding-left: 80px;
+    /* this is used to make all of the header elements white as well as put them in a block so they are all displayed in the same area */
+}
+p.about{
+    color:white;
+    margin-left:80px;
+    /* this is used to make the p elements with the class about go out 80px left from the left side of the page */
+}
+#pic{
+    float: right;
+    margin-right: 50px;
+    /* this is used to make the profile picture be on the right side of the page while spacing it out from the right 50px */
+}
+ .grid{
+   grid-template-columns: repeat(5,1fr); 
+   padding: 5px;
+   display: inline-grid;
+   color: white;
+   margin-left:75px;
+   grid-column-gap:15px;
+   box-sizing: min-content;
+   /* this is used to make a grid formation with columns and has the number of columns in it, it is an inline grid  so everything is evenly spaced*/
+}
+.card1{
+    grid-column-start:1 ;
+    grid-column-end:1;
+    border: 1px;
+   border-color:white;
+   border-style:solid;
+   padding: 5px;
+   border-spacing: 10px;
+    
+}
+.card2{
+    grid-column-start:2 ;
+    grid-column-end:2;
+    border: 1px;
+   border-color: white;
+   border-style:solid;
+   padding: 5px;
+}
+.card3{
+    grid-column-start:3 ;
+    grid-column-end:3;
+    border: 1px;
+   border-color: white;
+   border-style:solid;
+   padding: 5px;
+   color: white;
+}
+.card4{
+    grid-column-start:4 ;
+    grid-column-end:4;
+    border: 1px;
+   border-color: white;
+   border-style:solid;
+   padding: 5px;
+   color: white;
+}
+.card5{
+    grid-column-start:5 ;
+    grid-column-end:5;
+    border: 1px;
+   border-color: white;
+   border-style:solid;
+   padding: 5px;
+   color: white;
+}
+/* all of the cards below are used for the columns in the grid to make them each their own column */
+.fun-facts{
+    display: block;
+    margin-left: 80px;
+    /* this is used to display the fun-fact contents all together */
+}
+
+.fun-facts p{
+    border: 1px;
+    border-style:solid ;
+    border-color: white;
+    display:inline-block;
+    block-size: auto;
+    padding: 5px;
+    color: white;
+    /* this puts all of the p elements with the class fun-facts into boxes and makes the text color white, and gives them some padding so they aren't too close to eachother */
+}
+h1{
+    color: white;
+    /* this is used to make all of the h1s' text color white */
+}
+.media{
+    float:right;
+    padding-left: 25%;
+    margin-right: 25%;
+    /* this makes the media in the footer float to the right and gives it  some spacing */
+}
+footer{
+    display: block;
+    color:white;
+    padding-top: 25px;
+    padding-left: 80px;
+/* this displays all of the footer elements in a box, and makes the text color white while giving it some spacing */
+
+}
+footer img{
+    width:25px;
+    height:25px;
+      /* this is used to control the size of the image */
+}
+.contacts-box{
+    border: 1px;
+    border-style:solid ;
+    border-color: white;
+    padding: 5px;
+    color: white;
+    float:right;
+    margin-right: 15%;
+    /* this puts the contacts box on the right side of the page, making the text color white, and gives it a border */
+}
+#contact-img{
+    height:15%;
+    width:5%;
+    display: inline;
+      /* this is used to control the size of the image */
+}
+em{
+    color:rgb(163, 18, 163);
+    /* this makes certain element purple */
+}
+.all-media{
+    padding-left:80px;
+    padding-bottom:10px ;
+    color:white;
+    align-content: center;
+    /* this gives the all-media class some spacing and aligns the items in the center */
+}
+.all-media img{
+    height: 15px;
+    width: 15px;
+    align-self: center;
+      /* this is used to control the size of the image */
+}
+em[target="_blank"]{
+    color: gray;
+      /* this makes certain element gray */
+}
+.vertical-line{
+    border-left: 2px solid gray; 
+    height: 80px; 
+    margin-right: 10px; 
+    margin-left: 10px;
+    color:grey;
+   /* the two vertical line (above and below this) were somewhat from chatgpt, I don't remember what other code was used but I only used these parts(it had a lot more that wasn't needed)
+   but I added the margins in and edited the height */
+   
+}
+.vertical-line .links {
+    flex-direction: column;
+}
+.links img{
+    width: 1.5%;
+    height:1.5%;
+    display: flex;
+      /* this is used to control the size of the image */
+}
